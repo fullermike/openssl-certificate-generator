@@ -1,2 +1,8 @@
-# openssl-certificate-generator
-A simplified way to create certs using OpenSSL and Docker.
+
+## Start Here
+ - * Use the shell scripts to quickly address your SSL needs
+
+## Usage
+ - clone repository
+ - cd to the project folder root
+ - docker-compose up -d (coming soon)

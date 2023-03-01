@@ -1,0 +1,11 @@
+# docker-compose.yml
+version: '3.7'
+services:
+  app:
+    image: node:18-alpine
+    privileged: true
+    user: root
+    container_name: ${_DOCKER_CONTAINER_NAME}
+    volumes:
+      - ./container_data:/var/container_data
+      - /var/run/docker.sock:/var/run/docker.sock
